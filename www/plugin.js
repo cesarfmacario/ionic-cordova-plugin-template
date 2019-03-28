@@ -4,9 +4,9 @@ var exec = require('cordova/exec');
 var PLUGIN_NAME = 'MiPlugin';
 
 var MiPlugin = {
-  saludo: function (name, successCallback, errorCallback){
-        exec(successCallback, errorCallback, PLUGIN_NAME, "saludar", [name]);
-  }
+    listenTextSelectionAction: function (successCallback, errorCallback) {
+        exec(successCallback, errorCallback, PLUGIN_NAME, "listenTextSelectionAction");
+    }
 };
 
 module.exports = MiPlugin;

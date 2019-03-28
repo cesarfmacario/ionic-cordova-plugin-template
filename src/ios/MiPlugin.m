@@ -7,7 +7,7 @@
 - (void)pluginInitialize {
 }
 
-- (void)saludar:(CDVInvokedUrlCommand*)command
+- (void)listenTextSelectionAction:(CDVInvokedUrlCommand*)command
 {
 
     NSString* name = [[command arguments] objectAtIndex:0];

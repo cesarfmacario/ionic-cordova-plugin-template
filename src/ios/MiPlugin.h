@@ -4,6 +4,6 @@
 }
 
 // Encabezados de las funciones del plugin
-- (void) saludar:(CDVInvokedUrlCommand*)command;
+- (void) listenTextSelectionAction:(CDVInvokedUrlCommand*)command;
 
 @end
